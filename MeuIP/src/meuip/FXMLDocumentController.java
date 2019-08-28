@@ -1,4 +1,4 @@
-/*
+/**
  * Meu IP Controller.
  */
 package meuip;
@@ -12,20 +12,18 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.TextField;
 
 /**
- * Main class. Implements interface.
- * 
  * @author Daniel Augusto Monteiro de Almeida
  * @since 02/18/2019
- * @version 1.0.1-190823-20
+ * @version 1.0.1-20190828-20
  * 
- * Changelog: 
- * Reformatting to adjust to correct
- * standards.
- * Javadoc finished
- * 
+ * Main class. Implements interface.
  */
 public class FXMLDocumentController implements Initializable 
 {
+  
+  //---------------------------------------------------
+  // FXML Variables
+  //---------------------------------------------------
   /**
    * Interface object. TextField who
    * shows IP address.
@@ -71,6 +69,9 @@ public class FXMLDocumentController implements Initializable
   public void initialize(URL url, ResourceBundle rb) {}
     
 }
+
+
+
 
 
 

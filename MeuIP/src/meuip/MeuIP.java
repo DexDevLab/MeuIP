@@ -11,17 +11,11 @@ import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
 /**
- * Main class. Initialize controller.
- * 
  * @author Daniel Augusto Monteiro de Almeida
  * @since 02/18/2019
- * @version 1.0.1-190823-12
+ * @version 1.0.1-20190828-12
  * 
- * Changelog: 
- * Reformatting to adjust to correct
- * standards.
- * Javadoc finished.
- * 
+ * Main class. Initialize controller.
  */
 public class MeuIP extends Application 
 {
@@ -44,5 +38,7 @@ public class MeuIP extends Application
   public static void main(String[] args) {  launch(args); }
     
 }
+
+
 
 
